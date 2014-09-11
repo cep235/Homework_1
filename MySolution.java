@@ -9,6 +9,17 @@ public class MySolution {
     	/********************** 
     	 *   FAST SOLUTION    *
     	 **********************/
+    	
+    	//Consider a case where A & B can be directly concatenated and still remain sorted:
+    	// A = {1,2,3};
+    	// B = {4,5,6,7};
+    	//
+    	// Clearly, the median here is B[0]. 
+    	//
+    	// The following solutions consider the cases where both A&B can be directly
+    	// concatenated
+    	
+    	
     	//If the last element of A is less than the first element of B,
     	if (A[n] < B[0]){
     		if (n == m + 1){
@@ -32,6 +43,7 @@ public class MySolution {
     	/*********************** 
     	 *   SLOWER SOLUTION   *
     	 ***********************/
+    	
     	
 
     	return median;
